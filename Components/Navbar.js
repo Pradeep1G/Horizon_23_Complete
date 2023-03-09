@@ -30,7 +30,7 @@ export default function Navbar(){
                <Image className={styles.sist_logo} src={sist_logo} width='50' height='50' alt='SIST LOGO'/>
                {(toggleMenu) ? (<div className={styles.links_container}>
                     <Link className={styles.nav_links} href="/" alt="home"><p>HOME</p></Link>
-                    <Link className={styles.nav_links} href="/" alt="home"><p>EVENTS</p></Link>
+                    <Link className={styles.nav_links} href="/events" alt="home"><p>EVENTS</p></Link>
                     <Link className={styles.nav_links} href="/about" alt="home"><p>ABOUT US</p></Link>
                 </div>)
                 :
