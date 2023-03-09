@@ -172,11 +172,14 @@ export default function DisplayRules(props) {
               <b>3.</b> Participants are required to come up with a jingle and a
               pitch for the product.
               <br />
-              <b>4.</b> Teams should include new features in their presentation.
+              <b>4.</b> Participants must enact sequence of advertisements
+for their given product.
+              <br />
+              <b>5.</b> Vulgarity of any form will lead to disqualification.
               <br />
               <br />
-              <h2>Requirements from Students:</h2>
-              <b>1.</b> Laptop is mandatory.
+              {/* <h2>Requirements from Students:</h2> */}
+              <b>BEST SALESMAN </b> will be awarded.
             </p>
             <div className={styles.RulesButton}>
               <button>REGISTER</button>
@@ -184,6 +187,188 @@ export default function DisplayRules(props) {
           </div>
         </>
       );
+
+      if (props.show === "true" && props.event === "reels")
+      return (
+        <>
+          <div className={styles.Rules}>
+            <p className={styles.extracontent}>
+              <h2>Rules for the Event:</h2>
+              <b>1.</b> The reel must be original and must be their own
+creativity.
+              <br />
+              <b>2.</b> Each team is limited to one video.
+              <br />
+              <b>3.</b> The maximum time limit is 30 seconds and minimum is
+15 seconds. Participants will be disqualified if they exceed
+the time limit.
+              <br />
+              <b>4.</b> Decisions of the organizing committee shall be the final.
+
+              <br />
+              <b>5.</b> No offensive, derogatory remarks should be used.
+              <br />
+              <b>6.</b> The shooting must not interfere with classes, faculty, or
+students in any way.
+              <br />
+              <br />
+              <h2>Requirements from Students:</h2>
+              <b>1. </b> A phone/camera for shooting.
+            </p>
+            <div className={styles.RulesButton}>
+              <button>REGISTER</button>
+            </div>
+          </div>
+        </>
+      );
+
+
+      if (props.show === "true" && props.event === "sighton")
+      return (
+        <>
+          <div className={styles.Rules}>
+            <p className={styles.extracontent}>
+              <h2>Rules for the Event:</h2>
+              <b>1.</b> The size of the team is 2.
+              <br />
+              <b>2.</b> Mobile phones or any other electronic devices are not
+allowed.
+              <br />
+              <b>3.</b> while the slides are screening writing down is prohibited.
+              <br />
+              <b>4.</b> Participant’s shouldn’t have any words with other
+teammates while the slides are screening.
+
+              <br />
+              {/* <b>5.</b> No offensive, derogatory remarks should be used.
+              <br />
+              <b>6.</b> The shooting must not interfere with classes, faculty, or
+students in any way.
+              <br /> */}
+              <br />
+              <h2>Requirements from Students:</h2>
+              <b>1. </b> Stationary.
+            </p>
+            <div className={styles.RulesButton}>
+              <button>REGISTER</button>
+            </div>
+          </div>
+        </>
+      );
+
+
+      if (props.show === "true" && props.event === "laughout")
+      return (
+        <>
+          <div className={styles.Rules}>
+            <p className={styles.extracontent}>
+              <h2>Rules for the Event:</h2>
+              <b>1.</b> It is an individual event.
+              <br />
+              <b>2.</b> Time limit is 4 to 5 min . If the content is good the time
+will be extend. 
+              <br />
+              <b>3.</b> No participants should use controversial statements /
+no comments on religion. 
+              <br />
+              <b>4.</b> No hate speech against any community/racial slurs.
+
+              <br />
+              {/* <b>5.</b> No offensive, derogatory remarks should be used.
+              <br />
+              <b>6.</b> The shooting must not interfere with classes, faculty, or
+students in any way.
+              <br /> */}
+              <br />
+              <h2>Requirements from Students:</h2>
+              <b>1. </b> Would say a dank sense of humor is a requirement.
+            </p>
+            <div className={styles.RulesButton}>
+              <button>REGISTER</button>
+            </div>
+          </div>
+        </>
+      );
+
+
+      if (props.show === "true" && props.event === "jam")
+      return (
+        <>
+          <div className={styles.Rules}>
+            <p className={styles.extracontent}>
+              <h2>Rules for the Event:</h2>
+              <b>1.</b> You should showcase your skill within the time limit.
+              <br />
+              <b>2.</b> If the skill requires any material then it has to be taken
+care of by the individual itself.
+ 
+              <br />
+              <b>3.</b> Any type of vulgar events are
+ not encouraged.
+              <br />
+              <b>4.</b> Showcase of unique talent
+ expected.
+
+              <br />
+              <b>5.</b> Time duration 2min max.
+
+              {/* <br />
+              <b>6.</b> The shooting must not interfere with classes, faculty, or
+students in any way. */}
+              <br />
+              <br />
+              <h2>Requirements from Students:</h2>
+              <b>1. </b> Based on the skill the participant is showcasing.
+              <br/>
+              <b>2. </b> Showcase of unique talent encouraged.
+
+            </p>
+            <div className={styles.RulesButton}>
+              <button>REGISTER</button>
+            </div>
+          </div>
+        </>
+      );
+
+
+      if (props.show === "true" && props.event === "murdermystery")
+      return (
+        <>
+          <div className={styles.Rules}>
+            <p className={styles.extracontent}>
+              <h2>Rules for the Event:</h2>
+              <b>1.</b> Each team can have a size of 2-3 members.
+              <br />
+              <b>2.</b> Totally 8 rounds will be there.
+ 
+              <br />
+              <b>3.</b> Solving each clue will get you to the next round.
+              <br />
+              <b>4.</b> The team which solves the riddle first with the given
+clues will be moving to consecutive rounds.
+
+              <br />
+              <b>5.</b> The team that solves the riddles fast and finds the
+murderer first will win exciting prizes.
+
+              <br />
+              <b>6.</b> The team who solves the clue last will be eliminated.
+              <br />
+              <br />
+              {/* <h2>Requirements from Students:</h2>
+              <b>1. </b> Based on the skill the participant is showcasing.
+              <br/>
+              <b>2. </b> Showcase of unique talent encouraged. */}
+
+            </p>
+            <div className={styles.RulesButton}>
+              <button>REGISTER</button>
+            </div>
+          </div>
+        </>
+      );
+
+
     else if (props.show === "false") {
       return;
     }

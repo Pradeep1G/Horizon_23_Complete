@@ -843,12 +843,12 @@ export default function App(props){
     const [BrainbustersRules, setBrainbustersRules] = useState("false");
 
 
-    // const [Rules, setRules] = useState("false");
-    // const [Rules, setRules] = useState("false");
-    // const [Rules, setRules] = useState("false");
-    // const [Rules, setRules] = useState("false");
-    // const [Rules, setRules] = useState("false");
-    // const [Rules, setRules] = useState("false");
+    const [murdermysteryRules, setmurdermysteryRules] = useState("false");
+    const [jamRules, setjamRules] = useState("false");
+    const [laughoutRules, setlaughoutRules] = useState("false");
+    const [sightonRules, setsightonRules] = useState("false");
+    const [reelsRules, setreelsRules] = useState("false");
+    const [adzapRules, setadzapRules] = useState("false");
    
 
 
@@ -863,6 +863,18 @@ export default function App(props){
     const [BrainbustersHideRules, setBrainbustersHideRules] = useState(
       "Know More"
     );
+
+
+    const [murdermysteryHideRules, setmurdermysteryHideRules] = useState("Know More");
+    const [jamHideRules, setjamHideRules] = useState("Know More");
+    const [laughoutHideRules, setlaughoutHideRules] = useState("Know More");
+    const [sightonHideRules, setsightonHideRules] = useState("Know More");
+    const [reelsHideRules, setreelsHideRules] = useState("Know More");
+    const [adzapHideRules, setadzapHideRules] = useState("Know More");
+
+    
+
+
   
     const [chanestyle, setchangestyle] = useState("CardContent");
 
@@ -885,7 +897,7 @@ export default function App(props){
         centeredSlides={true}
         // slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
         breakpoints={{
-            350: {
+            400: {
             slidesPerView: 1.5,
             spaceBetween: 0,
         },  
@@ -1315,24 +1327,24 @@ export default function App(props){
                 <div className={styles.CardButton}>
                   <button
                     onClick={() => {
-                      if (CodefestRules === "false") {
-                        setCodefestRules("true");
-                        setCodefestHideRules("Show Less");
+                      if (murdermysteryRules === "false") {
+                        setmurdermysteryRules("true");
+                        setmurdermysteryHideRules("Show Less");
                         return;
                       } else {
-                        setCodefestRules("false");
-                        setCodefestHideRules("Know More");
+                        setmurdermysteryRules("false");
+                        setmurdermysteryHideRules("Know More");
                         return;
                       }
                     }}
                   >
-                    {CodefestHideRules}
+                    {murdermysteryHideRules}
                   </button>
                 </div>
               </div>
             </div>
             <div>
-              <DisplayRules show={CodefestRules} event="codefest" />
+              <DisplayRules show={murdermysteryRules} event="murdermystery" />
             </div>       
               </SwiperSlide>
               <SwiperSlide>
@@ -1369,24 +1381,24 @@ export default function App(props){
                 <div className={styles.CardButton}>
                   <button
                     onClick={() => {
-                      if (CodefestRules === "false") {
-                        setCodefestRules("true");
-                        setCodefestHideRules("Show Less");
+                      if (jamRules === "false") {
+                        setjamRules("true");
+                        setjamHideRules("Show Less");
                         return;
                       } else {
-                        setCodefestRules("false");
-                        setCodefestHideRules("Know More");
+                        setjamRules("false");
+                        setjamHideRules("Know More");
                         return;
                       }
                     }}
                   >
-                    {CodefestHideRules}
+                    {jamHideRules}
                   </button>
                 </div>
               </div>
             </div>
             <div>
-              <DisplayRules show={CodefestRules} event="codefest" />
+              <DisplayRules show={jamRules} event="jam" />
             </div>       
               </SwiperSlide>
               <SwiperSlide>
@@ -1423,24 +1435,24 @@ export default function App(props){
                 <div className={styles.CardButton}>
                   <button
                     onClick={() => {
-                      if (CodefestRules === "false") {
-                        setCodefestRules("true");
-                        setCodefestHideRules("Show Less");
+                      if (laughoutRules === "false") {
+                        setlaughoutRules("true");
+                        setlaughoutHideRules("Show Less");
                         return;
                       } else {
-                        setCodefestRules("false");
-                        setCodefestHideRules("Know More");
+                        setlaughoutRules("false");
+                        setlaughoutHideRules("Know More");
                         return;
                       }
                     }}
                   >
-                    {CodefestHideRules}
+                    {laughoutHideRules}
                   </button>
                 </div>
               </div>
             </div>
             <div>
-              <DisplayRules show={CodefestRules} event="codefest" />
+              <DisplayRules show={laughoutRules} event="laughout" />
             </div>       
               </SwiperSlide>
               <SwiperSlide>
@@ -1477,24 +1489,24 @@ export default function App(props){
                 <div className={styles.CardButton}>
                   <button
                     onClick={() => {
-                      if (CodefestRules === "false") {
-                        setCodefestRules("true");
-                        setCodefestHideRules("Show Less");
+                      if (sightonRules === "false") {
+                        setsightonRules("true");
+                        setsightonHideRules("Show Less");
                         return;
                       } else {
-                        setCodefestRules("false");
-                        setCodefestHideRules("Know More");
+                        setsightonRules("false");
+                        setsightonHideRules("Know More");
                         return;
                       }
                     }}
                   >
-                    {CodefestHideRules}
+                    {sightonHideRules}
                   </button>
                 </div>
               </div>
             </div>
             <div>
-              <DisplayRules show={CodefestRules} event="codefest" />
+              <DisplayRules show={sightonRules} event="sighton" />
             </div>        
               </SwiperSlide>
               <SwiperSlide>
@@ -1531,24 +1543,24 @@ export default function App(props){
                 <div className={styles.CardButton}>
                   <button
                     onClick={() => {
-                      if (CodefestRules === "false") {
-                        setCodefestRules("true");
-                        setCodefestHideRules("Show Less");
+                      if (reelsRules === "false") {
+                        setreelsRules("true");
+                        setreelsHideRules("Show Less");
                         return;
                       } else {
-                        setCodefestRules("false");
-                        setCodefestHideRules("Know More");
+                        setreelsRules("false");
+                        setreelsHideRules("Know More");
                         return;
                       }
                     }}
                   >
-                    {CodefestHideRules}
+                    {reelsHideRules}
                   </button>
                 </div>
               </div>
             </div>
             <div>
-              <DisplayRules show={CodefestRules} event="codefest" />
+              <DisplayRules show={reelsRules} event="reels" />
             </div>     
               </SwiperSlide>
               <SwiperSlide>
@@ -1585,24 +1597,24 @@ export default function App(props){
                 <div className={styles.CardButton}>
                   <button
                     onClick={() => {
-                      if (CodefestRules === "false") {
-                        setCodefestRules("true");
-                        setCodefestHideRules("Show Less");
+                      if (adzapRules === "false") {
+                        setadzapRules("true");
+                        setadzapHideRules("Show Less");
                         return;
                       } else {
-                        setCodefestRules("false");
-                        setCodefestHideRules("Know More");
+                        setadzapRules("false");
+                        setadzapHideRules("Know More");
                         return;
                       }
                     }}
                   >
-                    {CodefestHideRules}
+                    {adzapHideRules}
                   </button>
                 </div>
               </div>
             </div>
             <div>
-              <DisplayRules show={CodefestRules} event="codefest" />
+              <DisplayRules show={adzapRules} event="adzap" />
             </div>       
               </SwiperSlide>
             </Swiper>

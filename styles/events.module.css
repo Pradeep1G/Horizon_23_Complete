@@ -147,7 +147,7 @@
     position: relative;
     top: -20px;
     z-index: -1;
-    border: solid black;
+    border: solid rgb(185, 208, 245);
     border-width: 5px;
     border-top: 0;
     border-radius: 20px;
