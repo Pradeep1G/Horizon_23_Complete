@@ -1,0 +1,125 @@
+.navbar{
+    /* background: rgb(10,128,225);
+    background: linear-gradient(80deg, rgba(10,128,225,1) 27%, rgba(16,44,90,1) 73%); */
+    height: 100px;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+    background: linear-gradient(rgba(23, 3, 5, 0.5), rgba(23, 3, 5, 0.5));
+    position: fixed;
+}
+
+.nav_left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55%;
+}
+
+.ham_container{
+    display: none;
+}
+
+.ham_container button{
+    border: 0;
+    outline: 0;
+    background:transparent;
+}
+
+.ham_container button img{
+    width: 30px;
+    height: 30px;
+}
+
+.links_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links{
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 0.2rem;
+    cursor: pointer;
+    transition: color .7s;
+}
+
+.nav_links:hover{
+    color: blue;
+}
+
+@media screen and (max-width:720px){
+    .links_container{
+        background-color: #111343;
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+        left: 0;
+        padding-top: 50%;
+    }
+    .links_container_passive{
+        display: none;
+    }
+    .nav_links{
+        text-align: center;
+        margin-right: 0;
+        padding: 2rem 0rem;
+    }
+    .ham_container{
+        display: block;
+        z-index: 99;
+        padding: .5rem;
+    }
+}
+
+@media screen and (max-width:500px){
+    .ham_container{
+        padding-right: 1rem;
+    }
+}
+
+.sist_logo,.acm_logo{
+    border-radius: 10px;
+}
+
+.nav_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sep{
+    border-left:5px solid white;
+    height: 4rem;
+    margin: 1.5rem 1rem;
+}
+
+@media screen and (max-width:450px){
+    .sist_logo,.acm_logo{
+        width: 45px;
+        height: 45px;
+    }
+
+    .sep{
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width:700px){
+    .sist_text{
+        font-size: .75rem;
+        padding-left: .75rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .sist_text{
+        padding: .5rem;
+    }
+}

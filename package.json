@@ -1,0 +1,30 @@
+{
+  "name": "horizon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.4.1",
+    "@next/font": "^13.2.3",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "next": "13.2.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-burger-menu": "^3.0.9",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "sass": "^1.58.3",
+    "scss": "^0.2.4",
+    "swiper": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.2.1"
+  }
+}
