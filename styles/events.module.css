@@ -71,7 +71,9 @@
     border-radius: 30px;
     /* box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 5px; */
     height: auto;
-    background-color: rgb(185, 208, 245);
+    /* background-color: rgb(185, 208, 245); */
+    background-color: #E4FBFF;
+
   }
   .CardImage {
     height: 200px;
@@ -93,7 +95,9 @@
     position: relative;
     top: -26px;
     border-radius: 30px;
-    background-color: rgb(185, 208, 245);
+    /* background-color: rgb(185, 208, 245); */
+    background-color: #E4FBFF;
+
     
   }
   .CardHead {
