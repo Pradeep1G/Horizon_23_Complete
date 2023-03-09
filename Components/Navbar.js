@@ -36,7 +36,7 @@ export default function Navbar(){
                 :
                 (<div className={styles.links_container_passive}>
                     <Link className={styles.nav_links} href="/" alt="home">HOME</Link>
-                    <Link className={styles.nav_links} href="/" alt="home">EVENTS</Link>
+                    <Link className={styles.nav_links} href="/events" alt="home">EVENTS</Link>
                     <Link className={styles.nav_links} href="/about" alt="about">ABOUT US</Link>
                 </div>)
                 }
