@@ -897,7 +897,7 @@ export default function App(props){
         centeredSlides={true}
         // slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
         breakpoints={{
-            400: {
+            350: {
             slidesPerView: 1.5,
             spaceBetween: 0,
         },  
