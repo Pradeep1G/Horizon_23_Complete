@@ -149,7 +149,7 @@
     padding: 15px;
     padding-top: 28px;
     position: relative;
-    top: -20px;
+    top: -27px;
     z-index: -1;
    /* border: solid rgb(185, 208, 245);
     border-width: 5px;
@@ -158,7 +158,8 @@
     color: white;*/
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: rgb(185, 208, 245);
+   /* background-color: rgb(185, 208, 245);*/
+    background-color: #E4FBFF;
   }
   .RulesButton {
     display: flex;
