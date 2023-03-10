@@ -61,7 +61,7 @@ export default function Events(){
             className={styles.EventType}
             onClick={openTech}
           >
-            Technical Events
+            Technical
           </p>
           <p
             style={{
@@ -72,7 +72,7 @@ export default function Events(){
             className={styles.EventType}
             onClick={openNTech}
           >
-            Non-Technical Events
+            Non-Technical
           </p>
         </div>
       </div>
