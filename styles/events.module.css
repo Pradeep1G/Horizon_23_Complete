@@ -151,14 +151,14 @@
     position: relative;
     top: -20px;
     z-index: -1;
-    border: solid rgb(185, 208, 245);
+   /* border: solid rgb(185, 208, 245);
     border-width: 5px;
     border-top: 0;
     border-radius: 20px;
-    color: white;
+    color: white;*/
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    /* background-color: rgb(185, 208, 245); */
+    background-color: rgb(185, 208, 245);
   }
   .RulesButton {
     display: flex;
